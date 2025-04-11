@@ -10,12 +10,13 @@ class WordController extends Controller
 {
     public function index()
     {
-        return Word::with(['category', 'option'])->get();
+        return Word::with(['category', 'options'])->get();
     }
 
     public function show($id)
     {
-        return Word::with(['category', 'option'])->findOrFail($id);
+        return Word::with(['category', 'options'])->findOrFail($id);
     }
+
 }
 

@@ -4,259 +4,210 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use App\Models\Word;
+use App\Models\Option;
 
 class WordsTableSeeder extends Seeder
 {
     public function run()
     {
-        Word::create(['word' => 'León', 'category_id' => 1, 'option_id' => 2]);
-        Word::create(['word' => 'Elefante', 'category_id' => 1, 'option_id' => 3]);
-        Word::create(['word' => 'Tigre', 'category_id' => 1, 'option_id' => 4]);
-        Word::create(['word' => 'Gato', 'category_id' => 1, 'option_id' => 5]);
-        Word::create(['word' => 'Perro', 'category_id' => 1, 'option_id' => 1]);
-        Word::create(['word' => 'Zorro', 'category_id' => 1, 'option_id' => 2]);
-        Word::create(['word' => 'Oso', 'category_id' => 1, 'option_id' => 3]);
-        Word::create(['word' => 'Conejo', 'category_id' => 1, 'option_id' => 4]);
-        Word::create(['word' => 'Ratón', 'category_id' => 1, 'option_id' => 5]);
-        Word::create(['word' => 'Águila', 'category_id' => 1, 'option_id' => 1]);
-        Word::create(['word' => 'Serpiente', 'category_id' => 1, 'option_id' => 2]);
-        Word::create(['word' => 'Jirafa', 'category_id' => 1, 'option_id' => 3]);
-        Word::create(['word' => 'Cebra', 'category_id' => 1, 'option_id' => 4]);
-        Word::create(['word' => 'Caballo', 'category_id' => 1, 'option_id' => 5]);
-        Word::create(['word' => 'Burro', 'category_id' => 1, 'option_id' => 1]);
-        Word::create(['word' => 'Vaca', 'category_id' => 1, 'option_id' => 2]);
-        Word::create(['word' => 'Toro', 'category_id' => 1, 'option_id' => 3]);
-        Word::create(['word' => 'Gallina', 'category_id' => 1, 'option_id' => 4]);
-        Word::create(['word' => 'Gallo', 'category_id' => 1, 'option_id' => 5]);
-        Word::create(['word' => 'Pato', 'category_id' => 1, 'option_id' => 1]);
-        Word::create(['word' => 'Cisne', 'category_id' => 1, 'option_id' => 2]);
-        Word::create(['word' => 'Pingüino', 'category_id' => 1, 'option_id' => 3]);
-        Word::create(['word' => 'Canguro', 'category_id' => 1, 'option_id' => 4]);
-        Word::create(['word' => 'Koala', 'category_id' => 1, 'option_id' => 5]);
-        Word::create(['word' => 'Delfín', 'category_id' => 1, 'option_id' => 1]);
-        Word::create(['word' => 'Ballena', 'category_id' => 1, 'option_id' => 2]);
-        Word::create(['word' => 'Tiburón', 'category_id' => 1, 'option_id' => 3]);
-        Word::create(['word' => 'Pulpo', 'category_id' => 1, 'option_id' => 4]);
-        Word::create(['word' => 'Cangrejo', 'category_id' => 1, 'option_id' => 5]);
-        Word::create(['word' => 'Araña', 'category_id' => 1, 'option_id' => 1]);
-        Word::create(['word' => 'Mariposa', 'category_id' => 1, 'option_id' => 2]);
-        Word::create(['word' => 'Mosca', 'category_id' => 1, 'option_id' => 3]);
-        Word::create(['word' => 'Abeja', 'category_id' => 1, 'option_id' => 4]);
-        Word::create(['word' => 'Hormiga', 'category_id' => 1, 'option_id' => 5]);
-        Word::create(['word' => 'Camello', 'category_id' => 1, 'option_id' => 1]);
-        Word::create(['word' => 'Rinoceronte', 'category_id' => 1, 'option_id' => 2]);
-        Word::create(['word' => 'Hipopótamo', 'category_id' => 1, 'option_id' => 3]);
-        Word::create(['word' => 'Ciervo', 'category_id' => 1, 'option_id' => 4]);
-        Word::create(['word' => 'Mapache', 'category_id' => 1, 'option_id' => 5]);
-        Word::create(['word' => 'Murciélago', 'category_id' => 1, 'option_id' => 1]);
-        Word::create(['word' => 'Foca', 'category_id' => 1, 'option_id' => 2]);
-        Word::create(['word' => 'Lobo', 'category_id' => 1, 'option_id' => 3]);
-        Word::create(['word' => 'Iguana', 'category_id' => 1, 'option_id' => 4]);
-        Word::create(['word' => 'Pez', 'category_id' => 1, 'option_id' => 5]);
-        Word::create(['word' => 'Gaviota', 'category_id' => 1, 'option_id' => 1]);
-        Word::create(['word' => 'Paloma', 'category_id' => 1, 'option_id' => 2]);
-        Word::create(['word' => 'Flamenco', 'category_id' => 1, 'option_id' => 3]);
-        Word::create(['word' => 'Búho', 'category_id' => 1, 'option_id' => 4]);
-        Word::create(['word' => 'Liebre', 'category_id' => 1, 'option_id' => 5]);
-        Word::create(['word' => 'Manzana', 'category_id' => 2, 'option_id' => 1]);
-        Word::create(['word' => 'Banana', 'category_id' => 2, 'option_id' => 2]);
-        Word::create(['word' => 'Naranja', 'category_id' => 2, 'option_id' => 3]);
-        Word::create(['word' => 'Pera', 'category_id' => 2, 'option_id' => 4]);
-        Word::create(['word' => 'Sandía', 'category_id' => 2, 'option_id' => 5]);
-        Word::create(['word' => 'Melón', 'category_id' => 2, 'option_id' => 1]);
-        Word::create(['word' => 'Uva', 'category_id' => 2, 'option_id' => 2]);
-        Word::create(['word' => 'Fresa', 'category_id' => 2, 'option_id' => 3]);
-        Word::create(['word' => 'Cereza', 'category_id' => 2, 'option_id' => 4]);
-        Word::create(['word' => 'Piña', 'category_id' => 2, 'option_id' => 5]);
-        Word::create(['word' => 'Papaya', 'category_id' => 2, 'option_id' => 1]);
-        Word::create(['word' => 'Mango', 'category_id' => 2, 'option_id' => 2]);
-        Word::create(['word' => 'Mandarina', 'category_id' => 2, 'option_id' => 3]);
-        Word::create(['word' => 'Lima', 'category_id' => 2, 'option_id' => 4]);
-        Word::create(['word' => 'Limón', 'category_id' => 2, 'option_id' => 5]);
-        Word::create(['word' => 'Kiwi', 'category_id' => 2, 'option_id' => 1]);
-        Word::create(['word' => 'Ciruela', 'category_id' => 2, 'option_id' => 2]);
-        Word::create(['word' => 'Melocotón', 'category_id' => 2, 'option_id' => 3]);
-        Word::create(['word' => 'Albaricoque', 'category_id' => 2, 'option_id' => 4]);
-        Word::create(['word' => 'Coco', 'category_id' => 2, 'option_id' => 5]);
-        Word::create(['word' => 'Granada', 'category_id' => 2, 'option_id' => 1]);
-        Word::create(['word' => 'Frambuesa', 'category_id' => 2, 'option_id' => 2]);
-        Word::create(['word' => 'Higo', 'category_id' => 2, 'option_id' => 3]);
-        Word::create(['word' => 'Guayaba', 'category_id' => 2, 'option_id' => 4]);
-        Word::create(['word' => 'Tamarindo', 'category_id' => 2, 'option_id' => 5]);
-        Word::create(['word' => 'Maracuyá', 'category_id' => 2, 'option_id' => 1]);
-        Word::create(['word' => 'Lichi', 'category_id' => 2, 'option_id' => 2]);
-        Word::create(['word' => 'Durazno', 'category_id' => 2, 'option_id' => 3]);
-        Word::create(['word' => 'Chirimoya', 'category_id' => 2, 'option_id' => 4]);
-        Word::create(['word' => 'Arándano', 'category_id' => 2, 'option_id' => 5]);
-        Word::create(['word' => 'Grosella', 'category_id' => 2, 'option_id' => 1]);
-        Word::create(['word' => 'Carambola', 'category_id' => 2, 'option_id' => 2]);
-        Word::create(['word' => 'Zapote', 'category_id' => 2, 'option_id' => 3]);
-        Word::create(['word' => 'Tuna', 'category_id' => 2, 'option_id' => 4]);
-        Word::create(['word' => 'Níspero', 'category_id' => 2, 'option_id' => 5]);
-        Word::create(['word' => 'Aguacate', 'category_id' => 2, 'option_id' => 1]);
-        Word::create(['word' => 'Dátil', 'category_id' => 2, 'option_id' => 2]);
-        Word::create(['word' => 'Pomelo', 'category_id' => 2, 'option_id' => 3]);
-        Word::create(['word' => 'Mora', 'category_id' => 2, 'option_id' => 4]);
-        Word::create(['word' => 'Fresa silvestre', 'category_id' => 2, 'option_id' => 5]);
-        Word::create(['word' => 'Uva pasa', 'category_id' => 2, 'option_id' => 1]);
-        Word::create(['word' => 'Rambután', 'category_id' => 2, 'option_id' => 2]);
-        Word::create(['word' => 'Mangostán', 'category_id' => 2, 'option_id' => 3]);
-        Word::create(['word' => 'Caimito', 'category_id' => 2, 'option_id' => 4]);
-        Word::create(['word' => 'Salak', 'category_id' => 2, 'option_id' => 5]);
-        Word::create(['word' => 'Pitahaya', 'category_id' => 2, 'option_id' => 1]);
-        Word::create(['word' => 'Acerola', 'category_id' => 2, 'option_id' => 2]);
-        Word::create(['word' => 'Bacaba', 'category_id' => 2, 'option_id' => 3]);
-        Word::create(['word' => 'Baya', 'category_id' => 2, 'option_id' => 4]);
-        Word::create(['word' => 'España', 'category_id' => 3, 'option_id' => 5]);
-        Word::create(['word' => 'Francia', 'category_id' => 3, 'option_id' => 1]);
-        Word::create(['word' => 'Italia', 'category_id' => 3, 'option_id' => 2]);
-        Word::create(['word' => 'Alemania', 'category_id' => 3, 'option_id' => 3]);
-        Word::create(['word' => 'Portugal', 'category_id' => 3, 'option_id' => 4]);
-        Word::create(['word' => 'Grecia', 'category_id' => 3, 'option_id' => 5]);
-        Word::create(['word' => 'Polonia', 'category_id' => 3, 'option_id' => 1]);
-        Word::create(['word' => 'Rusia', 'category_id' => 3, 'option_id' => 2]);
-        Word::create(['word' => 'Suecia', 'category_id' => 3, 'option_id' => 3]);
-        Word::create(['word' => 'Noruega', 'category_id' => 3, 'option_id' => 4]);
-        Word::create(['word' => 'Finlandia', 'category_id' => 3, 'option_id' => 5]);
-        Word::create(['word' => 'Dinamarca', 'category_id' => 3, 'option_id' => 1]);
-        Word::create(['word' => 'Irlanda', 'category_id' => 3, 'option_id' => 2]);
-        Word::create(['word' => 'Reino Unido', 'category_id' => 3, 'option_id' => 3]);
-        Word::create(['word' => 'Suiza', 'category_id' => 3, 'option_id' => 4]);
-        Word::create(['word' => 'Austria', 'category_id' => 3, 'option_id' => 5]);
-        Word::create(['word' => 'Países Bajos', 'category_id' => 3, 'option_id' => 1]);
-        Word::create(['word' => 'Bélgica', 'category_id' => 3, 'option_id' => 2]);
-        Word::create(['word' => 'Ucrania', 'category_id' => 3, 'option_id' => 3]);
-        Word::create(['word' => 'Rumanía', 'category_id' => 3, 'option_id' => 4]);
-        Word::create(['word' => 'Turquía', 'category_id' => 3, 'option_id' => 5]);
-        Word::create(['word' => 'China', 'category_id' => 3, 'option_id' => 1]);
-        Word::create(['word' => 'Japón', 'category_id' => 3, 'option_id' => 2]);
-        Word::create(['word' => 'Corea del Sur', 'category_id' => 3, 'option_id' => 3]);
-        Word::create(['word' => 'India', 'category_id' => 3, 'option_id' => 4]);
-        Word::create(['word' => 'Pakistán', 'category_id' => 3, 'option_id' => 5]);
-        Word::create(['word' => 'Indonesia', 'category_id' => 3, 'option_id' => 1]);
-        Word::create(['word' => 'Tailandia', 'category_id' => 3, 'option_id' => 2]);
-        Word::create(['word' => 'Vietnam', 'category_id' => 3, 'option_id' => 3]);
-        Word::create(['word' => 'Malasia', 'category_id' => 3, 'option_id' => 4]);
-        Word::create(['word' => 'Australia', 'category_id' => 3, 'option_id' => 5]);
-        Word::create(['word' => 'Nueva Zelanda', 'category_id' => 3, 'option_id' => 1]);
-        Word::create(['word' => 'Estados Unidos', 'category_id' => 3, 'option_id' => 2]);
-        Word::create(['word' => 'Canadá', 'category_id' => 3, 'option_id' => 3]);
-        Word::create(['word' => 'México', 'category_id' => 3, 'option_id' => 4]);
-        Word::create(['word' => 'Argentina', 'category_id' => 3, 'option_id' => 5]);
-        Word::create(['word' => 'Brasil', 'category_id' => 3, 'option_id' => 1]);
-        Word::create(['word' => 'Chile', 'category_id' => 3, 'option_id' => 2]);
-        Word::create(['word' => 'Perú', 'category_id' => 3, 'option_id' => 3]);
-        Word::create(['word' => 'Colombia', 'category_id' => 3, 'option_id' => 4]);
-        Word::create(['word' => 'Ecuador', 'category_id' => 3, 'option_id' => 5]);
-        Word::create(['word' => 'Venezuela', 'category_id' => 3, 'option_id' => 1]);
-        Word::create(['word' => 'Cuba', 'category_id' => 3, 'option_id' => 2]);
-        Word::create(['word' => 'Uruguay', 'category_id' => 3, 'option_id' => 3]);
-        Word::create(['word' => 'Paraguay', 'category_id' => 3, 'option_id' => 4]);
-        Word::create(['word' => 'Bolivia', 'category_id' => 3, 'option_id' => 5]);
-        Word::create(['word' => 'Guatemala', 'category_id' => 3, 'option_id' => 1]);
-        Word::create(['word' => 'Honduras', 'category_id' => 3, 'option_id' => 2]);
-        Word::create(['word' => 'Panamá', 'category_id' => 3, 'option_id' => 3]);
-        Word::create(['word' => 'Costa Rica', 'category_id' => 3, 'option_id' => 4]);
-        Word::create(['word' => 'Médico', 'category_id' => 4, 'option_id' => 5]);
-        Word::create(['word' => 'Enfermero', 'category_id' => 4, 'option_id' => 1]);
-        Word::create(['word' => 'Ingeniero', 'category_id' => 4, 'option_id' => 2]);
-        Word::create(['word' => 'Profesor', 'category_id' => 4, 'option_id' => 3]);
-        Word::create(['word' => 'Maestro', 'category_id' => 4, 'option_id' => 4]);
-        Word::create(['word' => 'Arquitecto', 'category_id' => 4, 'option_id' => 5]);
-        Word::create(['word' => 'Abogado', 'category_id' => 4, 'option_id' => 1]);
-        Word::create(['word' => 'Panadero', 'category_id' => 4, 'option_id' => 2]);
-        Word::create(['word' => 'Cocinero', 'category_id' => 4, 'option_id' => 3]);
-        Word::create(['word' => 'Pintor', 'category_id' => 4, 'option_id' => 4]);
-        Word::create(['word' => 'Electricista', 'category_id' => 4, 'option_id' => 5]);
-        Word::create(['word' => 'Plomero', 'category_id' => 4, 'option_id' => 1]);
-        Word::create(['word' => 'Carpintero', 'category_id' => 4, 'option_id' => 2]);
-        Word::create(['word' => 'Mecánico', 'category_id' => 4, 'option_id' => 3]);
-        Word::create(['word' => 'Veterinario', 'category_id' => 4, 'option_id' => 4]);
-        Word::create(['word' => 'Psicólogo', 'category_id' => 4, 'option_id' => 5]);
-        Word::create(['word' => 'Actor', 'category_id' => 4, 'option_id' => 1]);
-        Word::create(['word' => 'Cantante', 'category_id' => 4, 'option_id' => 2]);
-        Word::create(['word' => 'Bailarín', 'category_id' => 4, 'option_id' => 3]);
-        Word::create(['word' => 'Diseñador', 'category_id' => 4, 'option_id' => 4]);
-        Word::create(['word' => 'Programador', 'category_id' => 4, 'option_id' => 5]);
-        Word::create(['word' => 'Contador', 'category_id' => 4, 'option_id' => 1]);
-        Word::create(['word' => 'Barbero', 'category_id' => 4, 'option_id' => 2]);
-        Word::create(['word' => 'Estilista', 'category_id' => 4, 'option_id' => 3]);
-        Word::create(['word' => 'Policía', 'category_id' => 4, 'option_id' => 4]);
-        Word::create(['word' => 'Bombero', 'category_id' => 4, 'option_id' => 5]);
-        Word::create(['word' => 'Soldado', 'category_id' => 4, 'option_id' => 1]);
-        Word::create(['word' => 'Astronauta', 'category_id' => 4, 'option_id' => 2]);
-        Word::create(['word' => 'Piloto', 'category_id' => 4, 'option_id' => 3]);
-        Word::create(['word' => 'Azafata', 'category_id' => 4, 'option_id' => 4]);
-        Word::create(['word' => 'Cajero', 'category_id' => 4, 'option_id' => 5]);
-        Word::create(['word' => 'Repartidor', 'category_id' => 4, 'option_id' => 1]);
-        Word::create(['word' => 'Fotógrafo', 'category_id' => 4, 'option_id' => 2]);
-        Word::create(['word' => 'Periodista', 'category_id' => 4, 'option_id' => 3]);
-        Word::create(['word' => 'Escritor', 'category_id' => 4, 'option_id' => 4]);
-        Word::create(['word' => 'Editor', 'category_id' => 4, 'option_id' => 5]);
-        Word::create(['word' => 'Traductor', 'category_id' => 4, 'option_id' => 1]);
-        Word::create(['word' => 'Guía turístico', 'category_id' => 4, 'option_id' => 2]);
-        Word::create(['word' => 'Economista', 'category_id' => 4, 'option_id' => 3]);
-        Word::create(['word' => 'Químico', 'category_id' => 4, 'option_id' => 4]);
-        Word::create(['word' => 'Biólogo', 'category_id' => 4, 'option_id' => 5]);
-        Word::create(['word' => 'Geólogo', 'category_id' => 4, 'option_id' => 1]);
-        Word::create(['word' => 'Matemático', 'category_id' => 4, 'option_id' => 2]);
-        Word::create(['word' => 'Físico', 'category_id' => 4, 'option_id' => 3]);
-        Word::create(['word' => 'Jardinero', 'category_id' => 4, 'option_id' => 4]);
-        Word::create(['word' => 'Agricultor', 'category_id' => 4, 'option_id' => 5]);
-        Word::create(['word' => 'Pescador', 'category_id' => 4, 'option_id' => 1]);
-        Word::create(['word' => 'Minero', 'category_id' => 4, 'option_id' => 2]);
-        Word::create(['word' => 'Escultor', 'category_id' => 4, 'option_id' => 3]);
-        Word::create(['word' => 'Taxista', 'category_id' => 4, 'option_id' => 4]);
-        Word::create(['word' => 'Silla', 'category_id' => 5, 'option_id' => 5]);
-        Word::create(['word' => 'Mesa', 'category_id' => 5, 'option_id' => 1]);
-        Word::create(['word' => 'Cama', 'category_id' => 5, 'option_id' => 2]);
-        Word::create(['word' => 'Espejo', 'category_id' => 5, 'option_id' => 3]);
-        Word::create(['word' => 'Alfombra', 'category_id' => 5, 'option_id' => 4]);
-        Word::create(['word' => 'Lámpara', 'category_id' => 5, 'option_id' => 5]);
-        Word::create(['word' => 'Sofá', 'category_id' => 5, 'option_id' => 1]);
-        Word::create(['word' => 'Cortina', 'category_id' => 5, 'option_id' => 2]);
-        Word::create(['word' => 'Ventilador', 'category_id' => 5, 'option_id' => 3]);
-        Word::create(['word' => 'Televisor', 'category_id' => 5, 'option_id' => 4]);
-        Word::create(['word' => 'Estufa', 'category_id' => 5, 'option_id' => 5]);
-        Word::create(['word' => 'Horno', 'category_id' => 5, 'option_id' => 1]);
-        Word::create(['word' => 'Refrigerador', 'category_id' => 5, 'option_id' => 2]);
-        Word::create(['word' => 'Microondas', 'category_id' => 5, 'option_id' => 3]);
-        Word::create(['word' => 'Tostadora', 'category_id' => 5, 'option_id' => 4]);
-        Word::create(['word' => 'Cafetera', 'category_id' => 5, 'option_id' => 5]);
-        Word::create(['word' => 'Lavadora', 'category_id' => 5, 'option_id' => 1]);
-        Word::create(['word' => 'Secadora', 'category_id' => 5, 'option_id' => 2]);
-        Word::create(['word' => 'Plancha', 'category_id' => 5, 'option_id' => 3]);
-        Word::create(['word' => 'Closet', 'category_id' => 5, 'option_id' => 4]);
-        Word::create(['word' => 'Estantería', 'category_id' => 5, 'option_id' => 5]);
-        Word::create(['word' => 'Cajón', 'category_id' => 5, 'option_id' => 1]);
-        Word::create(['word' => 'Puerta', 'category_id' => 5, 'option_id' => 2]);
-        Word::create(['word' => 'Ventana', 'category_id' => 5, 'option_id' => 3]);
-        Word::create(['word' => 'Pared', 'category_id' => 5, 'option_id' => 4]);
-        Word::create(['word' => 'Techo', 'category_id' => 5, 'option_id' => 5]);
-        Word::create(['word' => 'Piso', 'category_id' => 5, 'option_id' => 1]);
-        Word::create(['word' => 'Cuadro', 'category_id' => 5, 'option_id' => 2]);
-        Word::create(['word' => 'Reloj', 'category_id' => 5, 'option_id' => 3]);
-        Word::create(['word' => 'Florero', 'category_id' => 5, 'option_id' => 4]);
-        Word::create(['word' => 'Perchero', 'category_id' => 5, 'option_id' => 5]);
-        Word::create(['word' => 'Escritorio', 'category_id' => 5, 'option_id' => 1]);
-        Word::create(['word' => 'Computadora', 'category_id' => 5, 'option_id' => 2]);
-        Word::create(['word' => 'Teléfono', 'category_id' => 5, 'option_id' => 3]);
-        Word::create(['word' => 'Radio', 'category_id' => 5, 'option_id' => 4]);
-        Word::create(['word' => 'Bocina', 'category_id' => 5, 'option_id' => 5]);
-        Word::create(['word' => 'Sartén', 'category_id' => 5, 'option_id' => 1]);
-        Word::create(['word' => 'Olla', 'category_id' => 5, 'option_id' => 2]);
-        Word::create(['word' => 'Taza', 'category_id' => 5, 'option_id' => 3]);
-        Word::create(['word' => 'Plato', 'category_id' => 5, 'option_id' => 4]);
-        Word::create(['word' => 'Cuchillo', 'category_id' => 5, 'option_id' => 5]);
-        Word::create(['word' => 'Tenedor', 'category_id' => 5, 'option_id' => 1]);
-        Word::create(['word' => 'Cuchara', 'category_id' => 5, 'option_id' => 2]);
-        Word::create(['word' => 'Vaso', 'category_id' => 5, 'option_id' => 3]);
-        Word::create(['word' => 'Jarra', 'category_id' => 5, 'option_id' => 4]);
-        Word::create(['word' => 'Balón', 'category_id' => 5, 'option_id' => 5]);
-        Word::create(['word' => 'Colchón', 'category_id' => 5, 'option_id' => 1]);
-        Word::create(['word' => 'Cobija', 'category_id' => 5, 'option_id' => 2]);
-        Word::create(['word' => 'Almohada', 'category_id' => 5, 'option_id' => 3]);
-        Word::create(['word' => 'Cepillo', 'category_id' => 5, 'option_id' => 4]);
+        $words = [
+            // Astronomía
+            ['word' => 'Cuásar', 'category_id' => 1, 'options' => [
+                ['name' => 'Objeto celeste muy brillante y lejano', 'is_correct' => true],
+                ['name' => 'Montaña submarina', 'is_correct' => false],
+                ['name' => 'Instrumento de navegación', 'is_correct' => false],
+                ['name' => 'Tipo de galaxia enana', 'is_correct' => false],
+                ['name' => 'Corriente de aire espacial', 'is_correct' => false],
+            ]],
+            ['word' => 'Nebulosa', 'category_id' => 1, 'options' => [
+                ['name' => 'Nube de gas y polvo en el espacio', 'is_correct' => true],
+                ['name' => 'Planeta rocoso', 'is_correct' => false],
+                ['name' => 'Cinturón de asteroides', 'is_correct' => false],
+                ['name' => 'Cráter lunar', 'is_correct' => false],
+                ['name' => 'Cometa congelado', 'is_correct' => false],
+            ]],
+            ['word' => 'Astrolabio', 'category_id' => 1, 'options' => [
+                ['name' => 'Instrumento para medir posiciones de estrellas', 'is_correct' => true],
+                ['name' => 'Dispositivo para medir terremotos', 'is_correct' => false],
+                ['name' => 'Reloj de arena', 'is_correct' => false],
+                ['name' => 'Medidor de presión', 'is_correct' => false],
+                ['name' => 'Telescopio casero', 'is_correct' => false],
+            ]],
+            ['word' => 'Cosmogonía', 'category_id' => 1, 'options' => [
+                ['name' => 'Estudio del origen del universo', 'is_correct' => true],
+                ['name' => 'Estudio de estrellas fugaces', 'is_correct' => false],
+                ['name' => 'Formación de montañas', 'is_correct' => false],
+                ['name' => 'Observación del clima espacial', 'is_correct' => false],
+                ['name' => 'Movimiento de placas tectónicas', 'is_correct' => false],
+            ]],
+            ['word' => 'Magnetósfera', 'category_id' => 1, 'options' => [
+                ['name' => 'Capa magnética que protege un planeta', 'is_correct' => true],
+                ['name' => 'Tipo de galaxia espiral', 'is_correct' => false],
+                ['name' => 'Corriente de asteroides', 'is_correct' => false],
+                ['name' => 'Tormenta solar', 'is_correct' => false],
+                ['name' => 'Eclipse de sol', 'is_correct' => false],
+            ]],
+
+            // Física
+            ['word' => 'Entalpía', 'category_id' => 2, 'options' => [
+                ['name' => 'Cantidad de energía en un sistema termodinámico', 'is_correct' => true],
+                ['name' => 'Movimiento de fluidos', 'is_correct' => false],
+                ['name' => 'Carga eléctrica', 'is_correct' => false],
+                ['name' => 'Cantidad de materia', 'is_correct' => false],
+                ['name' => 'Velocidad de un cuerpo', 'is_correct' => false],
+            ]],
+            ['word' => 'Fótón', 'category_id' => 2, 'options' => [
+                ['name' => 'Partícula elemental de la luz', 'is_correct' => true],
+                ['name' => 'Unidad de carga', 'is_correct' => false],
+                ['name' => 'Unidad de masa', 'is_correct' => false],
+                ['name' => 'Molécula de agua', 'is_correct' => false],
+                ['name' => 'Cálculo de energía', 'is_correct' => false],
+            ]],
+            ['word' => 'Isótopo', 'category_id' => 2, 'options' => [
+                ['name' => 'Átomos con diferente número de neutrones', 'is_correct' => true],
+                ['name' => 'Moléculas enlazadas', 'is_correct' => false],
+                ['name' => 'Cálculo de volumen', 'is_correct' => false],
+                ['name' => 'Elemento gaseoso', 'is_correct' => false],
+                ['name' => 'Carga nuclear', 'is_correct' => false],
+            ]],
+            ['word' => 'Inercia', 'category_id' => 2, 'options' => [
+                ['name' => 'Resistencia al cambio de movimiento', 'is_correct' => true],
+                ['name' => 'Medición de la fuerza gravitatoria', 'is_correct' => false],
+                ['name' => 'Flujo de corriente', 'is_correct' => false],
+                ['name' => 'Transmisión de ondas sonoras', 'is_correct' => false],
+                ['name' => 'Emisión de radiación', 'is_correct' => false],
+            ]],
+            ['word' => 'Electrostática', 'category_id' => 2, 'options' => [
+                ['name' => 'Estudio de cargas eléctricas en reposo', 'is_correct' => true],
+                ['name' => 'Estudio de gases nobles', 'is_correct' => false],
+                ['name' => 'Presión en líquidos', 'is_correct' => false],
+                ['name' => 'Dispersión de luz', 'is_correct' => false],
+                ['name' => 'Dinámica de fluidos', 'is_correct' => false],
+            ]],
+
+            // Tecnología
+            ['word' => 'Algoritmo', 'category_id' => 3, 'options' => [
+                    ['name' => 'Conjunto de instrucciones para resolver un problema', 'is_correct' => true],
+                    ['name' => 'Lenguaje de programación', 'is_correct' => false],
+                    ['name' => 'Tipo de base de datos', 'is_correct' => false],
+                    ['name' => 'Componente de hardware', 'is_correct' => false],
+                    ['name' => 'Red informática descentralizada', 'is_correct' => false],
+                ]],
+                ['word' => 'Blockchain', 'category_id' => 3, 'options' => [
+                    ['name' => 'Cadena de bloques digitales que almacenan datos de forma segura', 'is_correct' => true],
+                    ['name' => 'Algoritmo de encriptación', 'is_correct' => false],
+                    ['name' => 'Tipo de disco duro', 'is_correct' => false],
+                    ['name' => 'Lenguaje de inteligencia artificial', 'is_correct' => false],
+                    ['name' => 'Proceso de minado de datos', 'is_correct' => false],
+                ]],
+                ['word' => 'Firmware', 'category_id' => 3, 'options' => [
+                    ['name' => 'Software integrado en hardware que controla funciones básicas', 'is_correct' => true],
+                    ['name' => 'Sistema operativo', 'is_correct' => false],
+                    ['name' => 'Antivirus portátil', 'is_correct' => false],
+                    ['name' => 'Memoria RAM de bajo nivel', 'is_correct' => false],
+                    ['name' => 'Tipo de red privada', 'is_correct' => false],
+                ]],
+                ['word' => 'Compilador', 'category_id' => 3, 'options' => [
+                    ['name' => 'Programa que traduce código fuente a lenguaje máquina', 'is_correct' => true],
+                    ['name' => 'Editor de texto avanzado', 'is_correct' => false],
+                    ['name' => 'Depurador de errores', 'is_correct' => false],
+                    ['name' => 'Servidor web local', 'is_correct' => false],
+                    ['name' => 'Cliente FTP', 'is_correct' => false],
+                ]],
+                ['word' => 'Latencia', 'category_id' => 3, 'options' => [
+                    ['name' => 'Retardo entre una acción y su respuesta en una red', 'is_correct' => true],
+                    ['name' => 'Velocidad de descarga máxima', 'is_correct' => false],
+                    ['name' => 'Memoria temporal del navegador', 'is_correct' => false],
+                    ['name' => 'Ancho de banda residual', 'is_correct' => false],
+                    ['name' => 'Tiempo de arranque del sistema', 'is_correct' => false],
+                ]],
+            // Geografía
+                ['word' => 'Archipiélago', 'category_id' => 4, 'options' => [
+                    ['name' => 'Conjunto de islas agrupadas', 'is_correct' => true],
+                    ['name' => 'Montaña volcánica', 'is_correct' => false],
+                    ['name' => 'Río con afluentes', 'is_correct' => false],
+                    ['name' => 'Depresión del terreno', 'is_correct' => false],
+                    ['name' => 'Zona desértica costera', 'is_correct' => false],
+                ]],
+                ['word' => 'Estenosfera', 'category_id' => 4, 'options' => [
+                    ['name' => 'Capa del manto terrestre parcialmente fundida', 'is_correct' => true],
+                    ['name' => 'Capa de ozono exterior', 'is_correct' => false],
+                    ['name' => 'Zona fría de la atmósfera', 'is_correct' => false],
+                    ['name' => 'Parte externa del núcleo', 'is_correct' => false],
+                    ['name' => 'Región helada de los polos', 'is_correct' => false],
+                ]],
+                ['word' => 'Cuenca hidrográfica', 'category_id' => 4, 'options' => [
+                    ['name' => 'Área que drena sus aguas a un río principal', 'is_correct' => true],
+                    ['name' => 'Depósito subterráneo de agua', 'is_correct' => false],
+                    ['name' => 'Región árida cercana a lagos', 'is_correct' => false],
+                    ['name' => 'Zona montañosa con ríos', 'is_correct' => false],
+                    ['name' => 'Área cubierta por glaciares', 'is_correct' => false],
+                ]],
+                ['word' => 'Meridiano', 'category_id' => 4, 'options' => [
+                    ['name' => 'Línea imaginaria que une los polos geográficos', 'is_correct' => true],
+                    ['name' => 'Curva de nivel del relieve', 'is_correct' => false],
+                    ['name' => 'Río subterráneo longitudinal', 'is_correct' => false],
+                    ['name' => 'Zona de alta altitud', 'is_correct' => false],
+                    ['name' => 'Corriente marina ecuatorial', 'is_correct' => false],
+                ]],
+                ['word' => 'Istmo', 'category_id' => 4, 'options' => [
+                    ['name' => 'Franja estrecha de tierra que une dos continentes o masas terrestres', 'is_correct' => true],
+                    ['name' => 'Canal artificial navegable', 'is_correct' => false],
+                    ['name' => 'Elevación continental submarina', 'is_correct' => false],
+                    ['name' => 'Cordillera cercana al mar', 'is_correct' => false],
+                    ['name' => 'Estuario fluvial', 'is_correct' => false],
+                ]],
+            //Historia
+                ['word' => 'Feudalismo', 'category_id' => 5, 'options' => [
+                    ['name' => 'Sistema político y social de la Edad Media basado en la posesión de tierras', 'is_correct' => true],
+                    ['name' => 'Movimiento filosófico de la antigüedad', 'is_correct' => false],
+                    ['name' => 'Confederación tribal asiática', 'is_correct' => false],
+                    ['name' => 'Periodo de expansión islámica', 'is_correct' => false],
+                    ['name' => 'Tipo de esclavitud romana', 'is_correct' => false],
+                ]],
+                ['word' => 'Ilustración', 'category_id' => 5, 'options' => [
+                    ['name' => 'Movimiento intelectual del siglo XVIII que promovía la razón y la ciencia', 'is_correct' => true],
+                    ['name' => 'Reforma del calendario gregoriano', 'is_correct' => false],
+                    ['name' => 'Campaña militar napoleónica', 'is_correct' => false],
+                    ['name' => 'Sistema de votación medieval', 'is_correct' => false],
+                    ['name' => 'Estilo artístico barroco', 'is_correct' => false],
+                ]],
+                ['word' => 'Helenismo', 'category_id' => 5, 'options' => [
+                    ['name' => 'Difusión de la cultura griega tras la conquista de Alejandro Magno', 'is_correct' => true],
+                    ['name' => 'Periodo de la guerra de Troya', 'is_correct' => false],
+                    ['name' => 'Reinado de los emperadores romanos', 'is_correct' => false],
+                    ['name' => 'Sistema político ateniense', 'is_correct' => false],
+                    ['name' => 'Religión politeísta persa', 'is_correct' => false],
+                ]],
+                ['word' => 'Edad de Bronce', 'category_id' => 5, 'options' => [
+                    ['name' => 'Periodo prehistórico donde se usaba bronce para herramientas y armas', 'is_correct' => true],
+                    ['name' => 'Era de los emperadores orientales', 'is_correct' => false],
+                    ['name' => 'Periodo de revolución agrícola', 'is_correct' => false],
+                    ['name' => 'Etapa de domesticación de animales', 'is_correct' => false],
+                    ['name' => 'Siglo de los descubrimientos', 'is_correct' => false],
+                ]],
+                ['word' => 'Tratado de Tordesillas', 'category_id' => 5, 'options' => [
+                    ['name' => 'Acuerdo entre España y Portugal para dividirse las tierras descubiertas', 'is_correct' => true],
+                    ['name' => 'Fin de la guerra de los cien años', 'is_correct' => false],
+                    ['name' => 'Inicio del renacimiento', 'is_correct' => false],
+                    ['name' => 'Separación de la Iglesia y el Estado', 'is_correct' => false],
+                    ['name' => 'Firma de la Magna Carta', 'is_correct' => false],
+                ]],
+        ];
+
+        foreach ($words as $data) {
+            $word = Word::create([
+                'name' => $data['word'],
+                'category_id' => $data['category_id'],
+            ]);
+
+            foreach ($data['options'] as $option) {
+                Option::create([
+                    'word_id' => $word->id,
+                    'name' => $option['name'],
+                    'is_correct' => $option['is_correct'],
+                ]);
+            }
+        }
     }
 }
-

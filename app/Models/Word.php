@@ -6,16 +6,16 @@ use Illuminate\Database\Eloquent\Model;
 
 class Word extends Model
 {
-    protected $fillable = ['word', 'category_id', 'option_id'];
+    protected $fillable = ['word', 'category_id'];
 
     public function category()
     {
         return $this->belongsTo(Category::class);
     }
 
-    public function option()
+    public function options()
     {
-        return $this->belongsTo(Option::class);
+        return $this->hasMany(Option::class);
     }
 }
 

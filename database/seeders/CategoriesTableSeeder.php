@@ -7,14 +7,12 @@ use App\Models\Category;
 
 class CategoriesTableSeeder extends Seeder
 {
-        public function run()
+    public function run()
     {
-        Category::create(['name' => 'Animales']);
-        Category::create(['name' => 'Frutas']);
-        Category::create(['name' => 'Países']);
-        Category::create(['name' => 'Profesiones']);
-        Category::create(['name' => 'Objetos del hogar']);
+        Category::create(['name' => 'Astronomía']);
+        Category::create(['name' => 'Física']);
+        Category::create(['name' => 'Tecnología']);
+        Category::create(['name' => 'Geografía']);
+        Category::create(['name' => 'Historia']);
     }
-
 }
-

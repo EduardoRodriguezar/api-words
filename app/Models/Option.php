@@ -8,9 +8,9 @@ class Option extends Model
 {
     protected $fillable = ['name'];
 
-    public function words()
+    public function word()
     {
-        return $this->hasMany(Word::class);
+        return $this->belongsTo(Word::class);
     }
 }
 
