@@ -49,6 +49,7 @@ class AuthController extends Controller
             'message' => 'Login exitoso',
             'access_token' => $token,
             'token_type' => 'Bearer',
+            'user' => $user
         ]);
     }
 }
